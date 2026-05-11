@@ -1,3 +1,3 @@
-public class equationValidator {
+public class EquationValidator {
     
 }
