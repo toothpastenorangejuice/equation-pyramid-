@@ -38,9 +38,7 @@ public class PyramidGenerator {
     public static void main(String[] args) {
 
         PyramidGenerator generator = new PyramidGenerator();
-
         Pyramid pyramid = generator.generatePyramid();
-
         System.out.println(pyramid);
     }
 }
