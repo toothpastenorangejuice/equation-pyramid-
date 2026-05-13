@@ -12,18 +12,17 @@ import java.util.List;
 public class Pyramid {
     
     private List<Square> squares; 
-    
-    private void addSquare(Square square){
-        squares.add(square); 
+
+    public Pyramid(List<Square> squares) {
+        this.squares = squares;
     }
 
     public List<Square> getSquares(){
         return squares; 
     }
 
-    public void display(){
-        for (Square square: squares){
-            System.out.println(square);
-        }
+    @Override
+    public String toString() {
+        return squares.toString();
     }
 }

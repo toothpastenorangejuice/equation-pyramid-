@@ -34,7 +34,7 @@ public class Square {
     //returns a tile in the format example A: + 5 
     @Override
     public String toString() {
-        return label + ": " + operator + "" + value;
+        return label + ": " + operator + value;
     }
 
 }
