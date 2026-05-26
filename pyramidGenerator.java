@@ -3,7 +3,7 @@ import java.util.List;
 import java.util.Random;
 
 /**
- * Represents a class to create random squares
+ * Represents a class to create random squares with random operators 
  * </p>
  *
  * @author  toothpastenorangejuice

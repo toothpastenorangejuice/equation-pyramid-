@@ -1,6 +1,12 @@
  
  PyramidGenerator
+ - generates a pyramid each round with each sqaure containing a random operation and  number 
+
  EquationValidator
+ -what must happebn here
+    - get the squares 
+    - build the eqaution ignoring the operator on the first square
+
  ScoreManager
  GameManager
  RoundManager
